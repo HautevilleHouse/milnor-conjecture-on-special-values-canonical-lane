@@ -1,1 +1,78 @@
-{}
+{
+  "all_pass": true,
+  "all_pass_normalized": true,
+  "blockers": {
+    "MSV_G1": [],
+    "MSV_G2": [],
+    "MSV_G3": [],
+    "MSV_G4": [],
+    "MSV_G5": [],
+    "MSV_G6": [],
+    "MSV_GM": []
+  },
+  "derived": {
+    "strict_coh_zero": true,
+    "strict_margin": 0.8045052292839904
+  },
+  "gates": {
+    "MSV_G1": "PASS",
+    "MSV_G2": "PASS",
+    "MSV_G3": "PASS",
+    "MSV_G4": "PASS",
+    "MSV_G5": "PASS",
+    "MSV_G6": "PASS",
+    "MSV_GM": "PASS"
+  },
+  "inputs": {
+    "eps_coh": 0.0,
+    "kappa_compact": 0.8045052292839904,
+    "kappa_polylog": 1.0932,
+    "regulator_transfer": 1.029422,
+    "rho_rigidity": 1.078,
+    "sigma_star_can": 1.053,
+    "sigma_value": 1.0750000000000002
+  },
+  "lane": {
+    "active_lane": "manifold_constrained",
+    "canonical_theorem_lane": "manifold_constrained"
+  },
+  "meta": {
+    "computed_at_utc": "2026-05-09T22:39:13+00:00",
+    "framework": "milnor_conjecture_on_special_values"
+  },
+  "normalized": {
+    "blockers": {
+      "G1": [],
+      "G2": [],
+      "G3": [],
+      "G4": [],
+      "G5": [],
+      "G6": [],
+      "GCoh": [],
+      "GM": []
+    },
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "NA",
+      "GCoh": "PASS",
+      "GM": "PASS"
+    }
+  },
+  "schema": {
+    "g6_policy": "NA means this framework has no standalone pre-coherence G6 gate",
+    "normalized_gate_keys": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "GCoh",
+      "GM"
+    ]
+  }
+}
